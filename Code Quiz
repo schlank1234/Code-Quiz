@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="C:\Users\user\OneDrive\Desktop\Homework Quiz\CodeQuiz.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 id="heading">Coding Quiz: Full Stack Web Development</h1>
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/user/OneDrive/Desktop/Homework%20Quiz/HighScore.html">CHECK HIGH
+            SCORES<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    <h1>Quiz</h1>
+    <h2>Time pass <span id="timer"></span></h2>
+
+    <div id="section-question">
+      <h2 id="question"> </h2>
+      <button type="button" id="answer-1" class="button"></button>
+      <button type="button" id="answer-2" class="button"></button>
+      <button type="button" id="answer-3" class="button"></button>
+    </div>
+  </main>
+  <!-- start button -->
+  <button id="start">Start</button>
+  <br>
+  <br>
+  <h2>SCORES: <span id="score"></span></h2>
+  <button id="submit">Submit</button>
+  <input id="initials" placeholder="enter initials" type="text" />
+
+  <!-- logic for quiz -->
+  <script src="./HomeworkQuiz.js"></script>
+</body>
+
+</html>
